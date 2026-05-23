@@ -2,12 +2,14 @@
   "name": "ai-runtime",
   "version": "0.1.0",
   "private": true,
+
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "prisma generate && next build",
     "start": "next start",
     "lint": "eslint"
   },
+
   "dependencies": {
     "@prisma/client": "^7.8.0",
     "next": "16.2.6",
@@ -21,6 +23,7 @@
     "react-hot-toast": "^2.6.0",
     "zod": "^4.4.3"
   },
+
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",

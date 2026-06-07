@@ -1,0 +1,30 @@
+{
+  "title":"RuntimeForge",
+  "components":[
+    {
+      "type":"form",
+      "title":"Student Form",
+      "fields":[
+        {
+          "name":"name",
+          "label":"Name",
+          "input":"text"
+        },
+        {
+          "name":"email",
+          "label":"Email",
+          "input":"email"
+        }
+      ]
+    },
+    {
+      "type":"dashboard"
+    },
+    {
+      "type":"table"
+    },
+    {
+      "type":"unknownThing"
+    }
+  ]
+}
